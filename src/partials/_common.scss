@@ -29,7 +29,8 @@ p{
 
 a{
     text-decoration: none;
-    color: $linkColor;
+    color: $hoverColor;
+    cursor: pointer;
 }
 
 li{

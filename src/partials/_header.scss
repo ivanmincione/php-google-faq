@@ -35,6 +35,7 @@ header{
 
         a{
             font-size: $font-size;
+            color: $linkColorHeader;
 
             &:hover{
                 color: $hoverColor;

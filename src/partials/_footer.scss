@@ -12,11 +12,12 @@ footer{
 
         a{
             font-size: $font-size / 1.5;
+            color: $linkColorFooter;
         }
 
         i{
             font-size: $font-size / 5;
-            color: $linkColor;
+            color: $linkColorFooter;
         }
     }
 }
