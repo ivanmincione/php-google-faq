@@ -1,0 +1,47 @@
+header{
+    padding: $spacing $spacing * 2;
+    border-bottom: 1px solid gray;
+    margin-bottom: $spacing * 2;
+}
+
+.header-top, .logo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img img{
+    width: 80px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+#privacy-text{
+    margin-left: $spacing / 2;
+    font-size: $font-size;
+}
+
+.menu-hamb-right i {
+    font-size: $font-size;
+    color: gray;
+    padding: $spacing;
+    cursor: pointer;
+}
+
+.list-menu ul{
+    display: flex;
+
+    li{
+        padding: 0 $spacing;
+
+        a{
+            font-size: $font-size;
+
+            &:hover{
+                color: $hoverColor;
+                border-bottom: 2px solid $hoverColor;
+            }
+        }
+    }
+}

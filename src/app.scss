@@ -1,11 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-    
-}
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/common";
+@import "partials/header";
+@import "partials/page";
+@import "partials/footer";
