@@ -20,7 +20,21 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
 
         <!-- sezione contenente le FAQ -->
         <main>
+            <div class="container">
+                <?php
+                foreach ($content as $value) { ?>
+                    <h1>
+                        <?php echo $value["quest"] ?>
+                    </h1>
+                    <p>
+                        <?php echo $value["answer"] ?>
+                    </p>
+                <?php
+                }
+                ?>
 
+
+            </div>
         </main>
 
         <footer>
