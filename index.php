@@ -6,6 +6,8 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <!-- per includere il file faq.php -->
+        <?php include_once "faq.php" ?>
         <title> FAQ Google</title>
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,8 +16,6 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <!-- STYLE -->
         <link rel="stylesheet" href="dist/app.css">
-        <!-- per includere il file faq.php -->
-        <?php include_once "faq.php" ?>
 
     </head>
     <body>
