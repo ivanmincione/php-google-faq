@@ -7,6 +7,9 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
     <head>
         <meta charset="utf-8">
         <title> FAQ Google</title>
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <!-- FONTAWESOME -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <!-- STYLE -->
@@ -66,13 +69,40 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
                 <?php
                 }
                 ?>
-
-
             </div>
         </main>
 
         <footer>
+            <div class="list-footer">
+                <ul>
+                    <li>
+                        <a href="#">Google</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">Tutto su Google</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">Termini</a>
+                    </li>
+                </ul>
+            </div>
 
+            <div class="select-lang">
+                <i class="fas fa-globe-americas"></i>
+                <select class="" name="">
+                    <option value="">Italian</option>
+                    <option value="">English</option>
+                    <option value="">Spanish</option>
+                    <option value="">Francais</option>
+                    <option value="">Chinese</option>
+                </select>
+            </div>
         </footer>
 
     </body>

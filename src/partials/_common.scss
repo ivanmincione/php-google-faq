@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -12,9 +16,12 @@
 
 h1{
     margin-bottom: $spacing * 2;
+    color: $colorPrimary;
 }
 
 p{
+    font-family: 'Roboto', sans-serif;
+    color: $colorPrimary;
     line-height: 2;
     margin-bottom: $spacing * 4;
 }
